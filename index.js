@@ -34,7 +34,7 @@ async function connector(Num, res) {
             creds: state.creds,
             keys: makeCacheableSignalKeyStore(state.keys, pino({ level: 'fatal' }).child({ level: 'fatal' }))
         },
-        printQRInTerminal: false,
+      //  printQRInTerminal: false,
         logger: pino({ level: 'fatal' }).child({ level: 'fatal' }),
         browser: Browsers.macOS("Safari"), //check docs for more custom options
         markOnlineOnConnect: true, //true or false yoour choice
