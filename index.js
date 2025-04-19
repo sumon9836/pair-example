@@ -9,7 +9,7 @@ const {
     Browsers,
     makeCacheableSignalKeyStore,
     DisconnectReason
-} = require('@whiskeysockets/baileys');
+} = require('baileys');
 const { upload } = require('./mega');
 const { Mutex } = require('async-mutex');
 const config = require('./config');
