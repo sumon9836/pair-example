@@ -17,11 +17,10 @@
   "author": "IRON-M4N",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^18.0.6",
-    "@whiskeysockets/baileys": "^6.7.8",
+    "baileys": "*",
     "async-mutex": "^0.5.0",
     "express": "^4.21.1",
-    "megajs": "^1.3.2",
+    "megajs": "*",
     "node-cache": "^5.1.2",
     "pino": "^9.4.0",
     "pm2": "^5.4.2"
